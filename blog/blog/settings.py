@@ -115,6 +115,14 @@ USE_I18N = True
 USE_TZ = True
 
 
+REST_FRAMEWORK = {    
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )    
+}
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
@@ -128,3 +136,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # El modelo User va a ser tomado para los usuarios
 AUTH_USER_MODEL = 'users.User'
+
+
