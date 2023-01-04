@@ -9,8 +9,8 @@ from categories.api.permissions import IsAdminOrReadOnly
 class CategoryApiViewSet(ModelViewSet):
     permission_classes = [IsAdminOrReadOnly]
     serializer_class = CategorySerializer
-    queryset = Category.objects.all()
-    # queryset = Category.objects.filter(published=True)
+    # queryset = Category.objects.all()
+    queryset = Category.objects.filter(published=True)
     lookup_field = 'slug'
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['published', 'title']
+    filterset_fields = ['title']
