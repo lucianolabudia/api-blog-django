@@ -1,4 +1,4 @@
-# Desarrollo de API completa con Django
+# Desarrollo de API REST completa con Django
 
 En este proyecto, se desarrollo una API completa utilizando el framework Django. Además, la construccion de una aplicación de blog con categorías, publicaciones, comentarios de usuarios, validaciones y permisos.
 
@@ -15,5 +15,8 @@ Para crear un post, sigue estos pasos:
 
 Los usuarios también pueden comentar en cualquier publicación. Cada comentario se asignará al usuario y al post correspondiente.
 
+[Django REST framework](https://www.django-rest-framework.org/)
+
 ## 🔧 Tecnologias
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=yellow)
 ![](https://img.shields.io/badge/Code-Django-informational?style=flat&logo=django&logoColor=white&color=green)
