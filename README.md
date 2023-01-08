@@ -17,4 +17,3 @@ Los usuarios también pueden comentar en cualquier publicación. Cada comentario
 
 ## 🔧 Tecnologias
 ![](https://img.shields.io/badge/Code-Django-informational?style=flat&logo=django&logoColor=white&color=green)
-![](https://img.shields.io/badge/Code-Django-informational?style=flat&logo=django&logoColor=white&color=green)
